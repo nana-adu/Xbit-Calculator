@@ -46,6 +46,10 @@
 	height:121px;
 	font-size:16pt;
 	cursor:pointer;
+	background-color:orange;
+	border:1px solid orange;
+	color:white;
+	font-weight:bolder;
 }
 
 .page-wrapper {
@@ -54,4 +58,16 @@
 	top:50%;
 	left:50%;
 	transform: translateX(-50%) translateY(-50%);
+}
+
+.clr_check, .sign {
+	background-color:#899ea9;
+	border:1px solid #899ea9;
+	color:white;
+}
+
+.zero_check {
+	background-color:white;
+	/*border:1px solid #9e9e9e4d;*/
+	border:1px solid #000000;
 }
