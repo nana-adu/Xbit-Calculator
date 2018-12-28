@@ -6,10 +6,18 @@
  	padding:0;
  }
 
+ body {
+ 	background-image:url("../img/wheat.png");
+ 	background-attachment:fixed;
+
+ }
+
  .page-desc {
  	float:left;
  	margin-right:70px;
+ 	margin-top:60px;
  	text-align:center;
+ 	color:#ffffff;
  	font-family:comic sans ms;
  }
 
