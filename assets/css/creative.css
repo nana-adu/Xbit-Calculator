@@ -5,4 +5,46 @@
  	margin:0;
  	padding:0;
  }
- 
+
+ .page-desc {
+ 	float:left;
+ 	margin-right:70px;
+ 	text-align:center;
+ 	font-family:comic sans ms;
+ }
+
+ .textview {
+	width:242px;
+	height:60px;
+	text-align:right;
+	font-size:16pt;
+	margin-left:2px;
+	padding-right:2px;
+	font-weight:lighter;
+	border:1px solid #00000047;
+}	
+
+.btn_check {
+	width:60px;
+	height:60px;
+	font-size:14pt;
+	margin:0px;
+	background-color:white;
+	border:1px solid #000000;
+	cursor:pointer;
+}
+
+.clr_check, .zero_check {
+	width:122px;
+	height:60px;
+	font-size:14pt;
+	cursor:pointer;
+}
+
+.eq_check {
+	width:60px;
+	height:121px;
+	font-size:16pt;
+	cursor:pointer;
+}
+
