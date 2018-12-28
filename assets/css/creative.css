@@ -48,3 +48,10 @@
 	cursor:pointer;
 }
 
+.page-wrapper {
+	width:800px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+}
