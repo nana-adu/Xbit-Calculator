@@ -23,8 +23,8 @@
 			</form>
 			<table>
 					<tr>
-						<td><input type="button" value="&divide" class="btn_check sign" onclick="insert('&divide')" /></td>
-						<td><input type="button" value="&times" class="btn_check sign" onclick="insert('&times')" /></td>
+						<td><input type="button" value="&divide" class="btn_check sign" onclick="insert('/')" /></td>
+						<td><input type="button" value="&times" class="btn_check sign" onclick="insert('*')" /></td>
 						<td colspan="2"><input type="button" value="C" class="clr_check" onclick="erase()" /></td>
 					</tr>
 					<tr>
@@ -43,7 +43,7 @@
 						<td><input type="button" value="1" class="btn_check" onclick="insert(1)" /></td>
 						<td><input type="button" value="2" class="btn_check" onclick="insert(2)" /></td>
 						<td><input type="button" value="3" class="btn_check" onclick="insert(3)" /></td>
-						<td rowspan="2"><input type="button" value="=" class="eq_check" /></td>
+						<td rowspan="2"><input type="button" value="=" class="eq_check" onclick="calc()" /></td>
 					</tr>
 					<tr>
 						<td colspan="2"><input type="button" value="0" class="zero_check" onclick="insert(0)" /></td>
