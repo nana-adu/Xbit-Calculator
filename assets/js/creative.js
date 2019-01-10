@@ -14,3 +14,7 @@ function calc() {
 	}
 }
 
+function back_step() {
+	var exp = document.display.text_holder.value;
+	document.display.text_holder.value = exp.substring(0, exp.length - 1);
+}
